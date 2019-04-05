@@ -23,7 +23,29 @@ b=4"""
 """if a==3 and b==4:
     print("es correcto")"""
 
-for i in range(0,5):
-    print(i)
+#for i in range(0,5):
+    #print(i)
+
+num1 = int(input("num 1"))
+num2 = int(input("num 2"))
+
+
+while True
+opcion = input("Ingrese S - suma. R - resta. M - multiplicacion. D -division ")
+if opcion=='S':
+    print(num1+num2)
+    break
+elif opcion=='R':
+    print(num1-num2)
+    break
+elif opcion=='M':
+    print(num1*num2)
+    break
+elif opcion=='D':
+    print(num1/num2)
+    break
+else:
+    print(input("opcion no valida"))
+
 
 
