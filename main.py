@@ -12,15 +12,18 @@ elif a<5:
     print("No es menor")
 else:
     print("No es mayor")"""
-a=3
-b=4
+"""a=3
+b=4"""
 """ while a==7:
     print("Estoy en el while")
     a=int(input("Ingrese el valor de a: "))
     if a !=7:
         break """
 
-if a==3 and b==4:
-    print("es correcto")
+"""if a==3 and b==4:
+    print("es correcto")"""
+
+for i in range(0,5):
+    print(i)
 
 
