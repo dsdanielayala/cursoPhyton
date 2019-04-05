@@ -26,26 +26,29 @@ b=4"""
 #for i in range(0,5):
     #print(i)
 
-num1 = int(input("num 1"))
-num2 = int(input("num 2"))
+num1 = int(input("num 1: "))
+num2 = int(input("num 2: "))
 
 
-while True
-opcion = input("Ingrese S - suma. R - resta. M - multiplicacion. D -division ")
-if opcion=='S':
-    print(num1+num2)
-    break
-elif opcion=='R':
-    print(num1-num2)
-    break
-elif opcion=='M':
-    print(num1*num2)
-    break
-elif opcion=='D':
-    print(num1/num2)
-    break
-else:
-    print(input("opcion no valida"))
+while True:
+    opcion = input("Ingrese S - suma. R - resta. M - multiplicacion. D -division ")
+    if opcion=='S':
+        print(num1+num2)
+        break
+    elif opcion=='R':
+        print(num1-num2)
+        break
+    elif opcion=='M':
+        if num==0:
+            print("no se puede realizar la division por 0, intenet de nuevo")
+        else:
+            print(num1*num2)
+        break
+    elif opcion=='D':
+        print(num1/num2)
+        break
+    else:
+        print(input("opcion no valida"))
 
 
 
